@@ -154,8 +154,6 @@ ROUTER_PASSWORD=HIER
 |🌐 Nutzung|
 |---|
 
-- Server starten: node app.js
-- Öffne im Browser: http://localhost:3000
 - Klicke auf gewünschte Diagnosefunktion:
 
 ```yarn
@@ -180,7 +178,7 @@ ROUTER_PASSWORD=HIER
 - 🖥️ Electron-Wrapper für native App (.exe)
 - 🔐 Benutzer-Login für zentrale Administrationsumgebung
 - 🧩 Auto-Discovery im Netzwerk
-
+> Updates in kommenden RELEASE
 <br>
 
 ---
