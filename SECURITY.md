@@ -17,8 +17,8 @@ Diese Richtlinie beschreibt, wie potenzielle Schwachstellen gemeldet, analysiert
 
 Bitte **berichte Sicherheitsprobleme vertraulich** über die folgende E-Mail-Adresse:
 
-📧 **security@bylickilabs.io**  
-(oder via GitHub [Security Advisories](https://github.com/bylickilabs/SpeedScanX/security/advisories))
+📧 **via GitHub**  
+([Security Advisories](https://github.com/bylickilabs/SpeedScanX/security/advisories))
 
 ⚠️ Bitte veröffentliche keine Schwachstellen in Issues oder Pull Requests.
 
