@@ -35,6 +35,9 @@
 
 ```yarn
 SpeedScanX/
+├── .github/workflows
+│   └── main.yml 
+│
 ├── backend/                         # Backend-Funktionen
 │   ├── ping.js                      # Ping mit Latenzanalyse
 │   ├── speedtest.js                 # CLI-Speedtest via Ookla
