@@ -1,0 +1,7 @@
+{
+  "defaultPingTarget": "8.8.8.8",
+  "defaultPortScanHost": "127.0.0.1",
+  "scanPorts": [22, 80, 443, 8080, 3306, 3389, 139, 21],
+  "language": "de",
+  "debug": false
+}

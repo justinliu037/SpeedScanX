@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SpeedScanX</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>SpeedScanX – Netzwerkdiagnose</h1>
+
+  <div class="button-group">
+    <button onclick="runPing()">Ping-Test</button>
+    <button onclick="runSpeedtest()">Speedtest</button>
+    <button onclick="runScan()">Netzwerkscan</button>
+    <button onclick="runDhcp()">DHCP-Leases</button>
+    <button onclick="runPortscan()">Portscan</button>
+    <button onclick="runRouterLogs()">Router-Logs</button>
+    <button onclick="window.open('http://speedport.ip', '_blank')">Speedport Weboberfläche</button>
+  </div>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
