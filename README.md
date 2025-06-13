@@ -59,6 +59,7 @@ SpeedScanX/
 ├── install.bat                      # Windows Start-/Install-Skript
 ├── install.sh                       # Linux/macOS Start-/Install-Skript
 ├── README.md                        # Diese Dokumentation
+├── LICENSE                          # MIT LICENSE
 ```
 
 <br>
