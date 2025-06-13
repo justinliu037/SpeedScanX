@@ -3,6 +3,9 @@
 
 #### **SpeedScanX** ist ein lokal ausführbares Diagnosetool mit Weboberfläche zur Analyse von Heim- und Büronetzwerken.  
 
+|![SpeedScanX](https://github.com/user-attachments/assets/56acb858-815b-44fc-8692-31d384256d2c)|
+|---|
+
 <br>
 
 > Es bietet
