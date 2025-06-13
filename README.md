@@ -1,7 +1,7 @@
 |![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)|![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)|![HTML](https://img.shields.io/badge/HTML5-UI-blue)|![CSS](https://img.shields.io/badge/CSS3-Neon%20Style-purple)|![Shell](https://img.shields.io/badge/Shell-Bash%20%26%20Batch-lightgrey)|![Puppeteer](https://img.shields.io/badge/Puppeteer-Automation-brightgreen)|
 |---|---|---|---|---|---|
 
-#### **SpeedScanX** ist ein lokal ausführbares Diagnosetool mit Weboberfläche zur Analyse von Heim- und Büronetzwerken.  
+#### **SpeedScanX** ist ein lokales Diagnosetool mit Weboberfläche zur Analyse von Heim- und Büronetzwerken.  
 
 |![SpeedScanX](https://github.com/user-attachments/assets/56acb858-815b-44fc-8692-31d384256d2c)|
 |---|
