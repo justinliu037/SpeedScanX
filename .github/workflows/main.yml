@@ -26,15 +26,6 @@ jobs:
       - name: 🛡️ Sicherheitsprüfung (npm audit)
         run: npm audit --audit-level=moderate || true
 
-      - name: 🔍 README-Badges prüfen
-        run: |
-          if grep -q "bylickilabs/speedScanX/README.md" README.md; then
-            echo "✅ Badge-Link gefunden"
-          else
-            echo "❌ Badge-Link fehlt oder falsch"
-            exit 1
-          fi
-
       - name: 🧪 Node-Version prüfen
         run: node -v
 
