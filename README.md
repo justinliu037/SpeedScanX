@@ -88,7 +88,7 @@ SpeedScanX/
 
 <br>
 
-|🛠️ Installation|
+|1. 🛠️ Installation|
 |---|
 
 | Schritt                        | Befehl / Aktion                                                   |
@@ -100,24 +100,19 @@ SpeedScanX/
 | 🚀 Starten                     | `node app.js` oder `install.bat`                                 |
 | 🌐 Webinterface aufrufen       | `http://localhost:3000`                                          |
 
+> SpeedScanX bezieht sich auf den Pfad:
+
+```yarn
+`C:\Tools\speedtest.exe`
+```
+
 <br>
 
 ---
 
 <br>
 
-|1. Speedtest CLI installieren|
-|---|
 
-- 🔗 https://www.speedtest.net/apps/cli
-- Lade die Version für dein System herunter
-- Entpacke speedtest.exe z. B. nach:
-
-```yarn
-  C:\Tools\speedtest.exe
-```
-
-- Stelle sicher, dass backend/speedtest.js den Pfad korrekt verwendet.
 
 |2. Projekt starten|
 |---|
