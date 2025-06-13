@@ -63,6 +63,7 @@ SpeedScanX/
 ├── install.sh                       # Linux/macOS Start-/Install-Skript
 ├── README.md                        # Diese Dokumentation
 ├── LICENSE                          # MIT LICENSE
+└── SECURITY                         # Security Policy
 ```
 
 <br>
