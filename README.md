@@ -145,7 +145,7 @@ chmod +x install.sh
 > 1. Router-Passwort in .env eintragen:
 
 ```yarn
-ROUTER_PASSWORD=gouda34178670
+ROUTER_PASSWORD=HIER
 ```
 
 > Dieses Passwort wird zum Login auf dem Speedport verwendet (meist Rückseite des Routers).
