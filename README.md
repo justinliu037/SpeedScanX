@@ -1,5 +1,5 @@
-|![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)|![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)|![HTML](https://img.shields.io/badge/HTML5-UI-blue)|![CSS](https://img.shields.io/badge/CSS3-Neon%20Style-purple)|![Shell](https://img.shields.io/badge/Shell-Bash%20%26%20Batch-lightgrey)|![Puppeteer](https://img.shields.io/badge/Puppeteer-Automation-brightgreen)|
-|---|---|---|---|---|---|
+|![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)|![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)|![HTML](https://img.shields.io/badge/HTML5-UI-blue)|![CSS](https://img.shields.io/badge/CSS3-Neon%20Style-purple)|![Shell](https://img.shields.io/badge/Shell-Bash%20%26%20Batch-lightgrey)|![Puppeteer](https://img.shields.io/badge/Puppeteer-Automation-brightgreen)|![CI](https://github.com/bylickilabs/speedScanX/actions/workflows/main.yml/badge.svg)|![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey)|![License](https://img.shields.io/github/license/bylickilabs/speedScanX)|![Last Commit](https://img.shields.io/github/last-commit/bylickilabs/speedScanX)|![GitHub issues](https://img.shields.io/github/issues/bylickilabs/speedScanX)|![Security Policy](https://img.shields.io/badge/security-policy-green)
+|---|---|---|---|---|---|---|---|---|---|---|---|
 
 #### **SpeedScanX** ist ein lokales Diagnosetool mit Weboberfläche zur Analyse von Heim- und Büronetzwerken.  
 
