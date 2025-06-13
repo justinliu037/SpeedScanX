@@ -195,6 +195,6 @@ ROUTER_PASSWORD=HIER
 |👨‍💻 Autor & Lizenz|
 |---|
 
-- Entwickler: Thorsten Bylicki | BYLICKILABS | ![WEBSITE LINK](https://www.bylickilabs.de)
+- Entwickler: Thorsten Bylicki | BYLICKILABS | [WEBSITE LINK](https://www.bylickilabs.de)
 - Lizenz: [LICENSE](LICENSE)
 - Version: SpeedScanX 1.0.x
