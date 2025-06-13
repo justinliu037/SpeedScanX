@@ -27,7 +27,8 @@
 
 <br>
 
-> 📁 Projektstruktur
+|📁 Projektstruktur|
+|---|
 
 ```yarn
 SpeedScanX/
@@ -63,7 +64,8 @@ SpeedScanX/
 
 <br>
 
-## 🔍 Funktionen
+|🔍 Funktionen|
+|---|
 
 | 🧩 Funktion           | Beschreibung                                                                 |
 |------------------------|------------------------------------------------------------------------------|
@@ -83,7 +85,8 @@ SpeedScanX/
 
 <br>
 
-## 🛠️ Installation
+|🛠️ Installation|
+|---|
 
 | Schritt                        | Befehl / Aktion                                                   |
 |--------------------------------|-------------------------------------------------------------------|
@@ -93,3 +96,102 @@ SpeedScanX/
 | 📦 Abhängigkeiten installieren | `npm install`                                                    |
 | 🚀 Starten                     | `node app.js` oder `install.bat`                                 |
 | 🌐 Webinterface aufrufen       | `http://localhost:3000`                                          |
+
+<br>
+
+---
+
+<br>
+
+|1. Speedtest CLI installieren|
+|---|
+
+- 🔗 https://www.speedtest.net/apps/cli
+- Lade die Version für dein System herunter
+- Entpacke speedtest.exe z. B. nach:
+
+```yarn
+  C:\Tools\speedtest.exe
+```
+
+- Stelle sicher, dass backend/speedtest.js den Pfad korrekt verwendet.
+
+|2. Projekt starten|
+|---|
+
+- Windows:
+- Linux/macOS:
+
+```yarn
+install.bat
+```
+
+```yarn
+chmod +x install.sh
+./install.sh
+```
+
+<br>
+
+---
+
+<br>
+
+|🔐 Konfiguration|
+|---|
+> 1. Router-Passwort in .env eintragen:
+
+```yarn
+ROUTER_PASSWORD=gouda34178670
+```
+
+> Dieses Passwort wird zum Login auf dem Speedport verwendet (meist Rückseite des Routers).
+
+<br>
+
+---
+
+<br>
+
+|🌐 Nutzung|
+|---|
+
+- Server starten: node app.js
+- Öffne im Browser: http://localhost:3000
+- Klicke auf gewünschte Diagnosefunktion:
+
+```yarn
+📡 Ping-Test
+📶 Speedtest
+🖧 Netzwerkscan
+🔌 Portscan
+📄 DHCP-Leases
+📘 Router-Logs
+🌐 Speedport Weboberfläche
+```
+
+<br>
+
+---
+
+<br>
+
+> 🧠 Erweiterbar für:
+- 📊 JSON-Export & CSV-Protokollierung
+- ⚠️ Alerting bei Paketverlust / Portstatus
+- 🖥️ Electron-Wrapper für native App (.exe)
+- 🔐 Benutzer-Login für zentrale Administrationsumgebung
+- 🧩 Auto-Discovery im Netzwerk
+
+<br>
+
+---
+
+<br>
+
+|👨‍💻 Autor & Lizenz|
+|---|
+
+- Entwickler: Thorsten Bylicki
+- Lizenz: [LICENSE](LICENSE)
+- Version: SpeedScanX 1.0.x
