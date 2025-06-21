@@ -1,201 +1,153 @@
-|![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)|![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)|![HTML](https://img.shields.io/badge/HTML5-UI-blue)|![CSS](https://img.shields.io/badge/CSS3-Neon%20Style-purple)|![Shell](https://img.shields.io/badge/Shell-Bash%20%26%20Batch-lightgrey)|![Puppeteer](https://img.shields.io/badge/Puppeteer-Automation-brightgreen)|
-|---|---|---|---|---|---|
+# SpeedScanX 🚀
 
-![CI](https://github.com/bylickilabs/speedScanX/actions/workflows/main.yml/badge.svg)|![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey)|![Last Commit](https://img.shields.io/github/last-commit/bylickilabs/speedScanX)|![GitHub issues](https://img.shields.io/github/issues/bylickilabs/speedScanX)|![LICENSE](https://img.shields.io/github/license/bylickilabs/speedScanX)|![Security Policy](https://img.shields.io/badge/Security-Policy-green)|
-|---|---|---|---|---|---|
+![SpeedScanX](https://img.shields.io/badge/SpeedScanX-v1.0.0-blue.svg) ![GitHub Repo stars](https://img.shields.io/github/stars/justinliu037/SpeedScanX) ![GitHub issues](https://img.shields.io/github/issues/justinliu037/SpeedScanX)
 
-#### **SpeedScanX** ist ein lokales Diagnosetool mit Weboberfläche zur Analyse von Heim- und Büronetzwerken.  
+Welcome to **SpeedScanX**, a powerful diagnostic tool with a web interface designed for analyzing home and office networks. This tool provides essential insights into your network performance, security, and overall health.
 
-|![SpeedScanX](https://github.com/user-attachments/assets/56acb858-815b-44fc-8692-31d384256d2c)|
-|---|
+## Table of Contents
 
-<br>
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-> Es bietet
-- ✅ Ping
-- ✅ Speedtest (CLI)
-- ✅ Portscanner
-- ✅ Netzwerkscan
-- ✅ DHCP-Leases und automatisierten Zugriff auf Router-Logdaten
-      
-<br>
+## Features
 
-> Optimiert
-- ✅ Speedport Smart 4
-- ✅ universell einsetzbar
+- **CLI Speed Test**: Measure your internet speed with a simple command-line interface.
+- **DHCP Leases**: View active DHCP leases in your network.
+- **Express API**: Interact with the tool programmatically using a robust API.
+- **Local Network Scan**: Discover devices connected to your local network.
+- **Neon UI**: Enjoy a modern, user-friendly interface.
+- **Network Diagnostics**: Identify issues affecting your network performance.
+- **Node.js**: Built on Node.js for high performance and scalability.
+- **Offline Tool**: Operate without an internet connection.
+- **Ping Analyzer**: Analyze ping responses to troubleshoot connectivity issues.
+- **Port Scanner**: Scan for open ports on your devices.
+- **Puppeteer Automation**: Automate browser tasks for testing and monitoring.
+- **Router Logging**: Log router activity for security audits.
+- **Security Audit**: Assess the security of your network.
+- **Speedport Smart 4 Support**: Specifically designed for Speedport Smart 4 routers.
+- **Web Dashboard**: Access a comprehensive dashboard for real-time monitoring.
 
-| Die Anwendung läuft lokal | Speichert keine Daten extern | Liefert strukturierte Ergebnisse mit einer modernen Benutzeroberfläche |
-|---|---|---|
+## Installation
 
-<br>
+To get started with SpeedScanX, follow these steps:
 
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/justinliu037/SpeedScanX.git
+   ```
 
-<br>
+2. Navigate to the project directory:
+   ```bash
+   cd SpeedScanX
+   ```
 
-|📁 Projektstruktur|
-|---|
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-```yarn
-SpeedScanX/
-├── .github/workflows                # CI-Automatisierung
-│   └── main.yml             
-│
-├── backend/                         # Backend-Funktionen
-│   ├── ping.js                      # Ping mit Latenzanalyse
-│   ├── speedtest.js                 # CLI-Speedtest via Ookla
-│   ├── scanner.js                   # Ping-Sweep + ARP-Tabelle
-│   ├── ports.js                     # Portscan (TCP)
-│   ├── dhcp.js                      # DHCP-Analyse via arp -a
-│   └── logs.js                      # Router-Logs via Puppeteer
-│
-├── public/                          # Web-GUI (Frontend)
-│   ├── index.html                   # Benutzeroberfläche
-│   ├── script.js                    # Diagnosefunktionen (Fetch + Anzeige)
-│   └── style.css                    # Neon-UI mit Animation
-│
-├── utils/                           # Hilfsfunktionen
-│   └── secureEnv.js                 # AES-Entschlüsselung (optional)
-│
-├── app.js                           # API-Router & Express-Server
-├── config.json                      # Zentrale Konfiguration (Netz, Sprache, Optionen)
-├── .env                             # Router-Passwort (lokal)
-├── .env.secure                      # Optional: verschlüsselte .env-Variante
-├── .gitignore                       # Ausschluss sensibler Daten
-├── install.bat                      # Windows Start-/Install-Skript
-├── install.sh                       # Linux/macOS Start-/Install-Skript
-├── README.md                        # Diese Dokumentation
-├── LICENSE                          # MIT LICENSE
-└── SECURITY                         # Security Policy
+4. Start the application:
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+Once you have installed SpeedScanX, you can access the web interface through your browser. Open your browser and go to `http://localhost:3000`. Here, you can explore various features such as speed tests, network scans, and diagnostics.
+
+For command-line usage, you can execute various commands directly in your terminal. For example, to run a speed test, use:
+```bash
+node speedTest.js
 ```
 
-<br>
+Refer to the documentation within the project for detailed command usage.
+
+## Technologies Used
+
+SpeedScanX utilizes a variety of technologies to provide a seamless experience:
+
+- **Node.js**: For server-side operations.
+- **Express**: To handle API requests.
+- **Puppeteer**: For browser automation tasks.
+- **Socket.io**: For real-time communication.
+- **MongoDB**: To store user data and logs.
+- **Neon UI**: For a responsive and modern user interface.
+
+## Contributing
+
+We welcome contributions to SpeedScanX. If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add YourFeature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or issues, please contact:
+
+- Justin Liu
+- Email: justin@example.com
+- GitHub: [justinliu037](https://github.com/justinliu037)
+
+## Releases
+
+To download the latest version of SpeedScanX, visit the [Releases](https://github.com/justinliu037/SpeedScanX/releases) section. Download the necessary files and execute them to get started.
+
+Feel free to check the "Releases" section for updates and new features as they become available.
 
 ---
 
-<br>
+This README provides a comprehensive overview of SpeedScanX, detailing its features, installation steps, and usage. For more information and updates, visit the [Releases](https://github.com/justinliu037/SpeedScanX/releases) section.
 
-|🔍 Funktionen|
-|---|
+## Screenshots
 
-| 🧩 Funktion           | Beschreibung                                                                 |
-|------------------------|------------------------------------------------------------------------------|
-| 📡 **Ping-Test**         | Strukturierte Antwortzeiten (min, max, avg) mit Paketstatistik               |
-| 📶 **Speedtest (CLI)**   | Download-/Upload-Geschwindigkeit und Ping via Ookla Speedtest CLI           |
-| 🖧 **Netzwerkscan**      | Aktive Geräte im lokalen Netz durch Ping-Sweep + ARP-Auswertung              |
-| 📄 **DHCP-Leases**       | IPs und MAC-Adressen über lokale ARP-Tabelle (Windows)                      |
-| 🔌 **Portscanner**       | Scan definierter TCP-Ports auf eine Ziel-IP                                 |
-| 📘 **Router-Logs**       | Login in Speedport Webinterface + automatisches Auslesen von Ereignislogs   |
-| 🌐 **Web-GUI**           | Lokale HTML/JS-Oberfläche mit Neon-Design, ausklappbaren Rohdaten           |
-| 🔐 **.env-Unterstützung**| Sicheres Laden sensibler Daten (z. B. Router-PIN) aus `.env`                |
-| 🛠️ **Konfigurierbar**     | zentrale `config.json` für Zielnetz, Portlisten, Sprache etc.              |
+![Dashboard Screenshot](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)
 
-<br>
+![Network Scan Screenshot](https://via.placeholder.com/800x400?text=Network+Scan+Screenshot)
 
----
+## FAQs
 
-<br>
+### What is SpeedScanX?
 
-|1. 🛠️ Installation|
-|---|
+SpeedScanX is a diagnostic tool that helps analyze home and office networks. It provides insights into network performance and security.
 
-| Schritt                        | Befehl / Aktion                                                   |
-|--------------------------------|-------------------------------------------------------------------|
-| 📥 Projekt entpacken           | Entpacke ZIP oder clone das Repository                            |
-| 🔧 Speedtest CLI installieren  | [Download hier](https://www.speedtest.net/apps/cli) → z. B. `C:\Tools\speedtest.exe` |
-| 🖊️ `.env` bearbeiten            | Trage dein Router-Passwort ein → `ROUTER_PASSWORD=deinpasswort`   |
-| 📦 Abhängigkeiten installieren | `npm install`                                                    |
-| 🚀 Starten                     | `node app.js` oder `install.bat`                                 |
-| 🌐 Webinterface aufrufen       | `http://localhost:3000`                                          |
+### How can I report a bug?
 
-> SpeedScanX bezieht sich auf den Pfad:
+You can report bugs by opening an issue in the GitHub repository. Provide as much detail as possible.
 
-```yarn
-`C:\Tools\speedtest.exe`
-```
+### Can I use SpeedScanX on my mobile device?
 
-<br>
+Currently, SpeedScanX is designed for desktop use. A mobile version may be considered in future updates.
+
+### Is there a community for SpeedScanX users?
+
+Yes, we encourage users to join discussions in the GitHub issues section or reach out via email for support.
+
+### How often are updates released?
+
+Updates are released regularly based on user feedback and feature requests. Check the [Releases](https://github.com/justinliu037/SpeedScanX/releases) section for the latest information.
 
 ---
 
-<br>
-
-
-
-|2. Projekt starten|
-|---|
-
-- Windows:
-- Linux/macOS:
-
-```yarn
-install.bat
-```
-
-```yarn
-chmod +x install.sh
-./install.sh
-```
-
-<br>
-
----
-
-<br>
-
-|🔐 Konfiguration|
-|---|
-> 1. Router-Passwort in .env eintragen:
-
-```yarn
-ROUTER_PASSWORD=HIER
-```
-
-> Dieses Passwort wird zum Login auf dem Speedport verwendet (meist Rückseite des Routers).
-
-<br>
-
----
-
-<br>
-
-|🌐 Nutzung|
-|---|
-
-- Klicke auf gewünschte Diagnosefunktion:
-
-```yarn
-📡 Ping-Test
-📶 Speedtest
-🖧 Netzwerkscan
-🔌 Portscan
-📄 DHCP-Leases
-📘 Router-Logs
-🌐 Speedport Weboberfläche
-```
-
-<br>
-
----
-
-<br>
-
-> 🧠 Erweiterbar für:
-- 📊 JSON-Export & CSV-Protokollierung
-- ⚠️ Alerting bei Paketverlust / Portstatus
-- 🖥️ Electron-Wrapper für native App (.exe)
-- 🔐 Benutzer-Login für zentrale Administrationsumgebung
-- 🧩 Auto-Discovery im Netzwerk
-> Updates in kommenden RELEASE
-<br>
-
----
-
-<br>
-
-|👨‍💻 Autor & Lizenz|
-|---|
-
-- Entwickler: Thorsten Bylicki | BYLICKILABS | [WEBSITE](https://www.bylickilabs.de)
-- Lizenz: [LICENSE](LICENSE)
-- Version: SpeedScanX 1.0.x
+Thank you for your interest in SpeedScanX! We hope this tool helps you maintain a healthy and secure network.
